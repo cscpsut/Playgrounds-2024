@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <style>
+        body {
+            background-image: url("egyptian_robot.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            overflow: hidden;
+        } 
+        
+        #title {
+            font-family: 'Poppins', sans-serif;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -webkit-text-stroke: 3px lightslategray;
+            color: transparent;
+            background-image: linear-gradient(lightslategray, lightslategray); 
+            background-repeat: no-repeat;
+            -webkit-background-clip: text;
+            background-position: -1000px 0;
+            animation: backcolor 5s linear infinite alternate;
+
+            font-size: 60px;
+            text-align: center;
+            margin: 0;
+        }
+
+        @keyframes backcolor {
+            100%{
+                background-position: 0 0;
+            }   
+        }
+
+        #Braw{
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-60%);
+            color: #FFFF00;
+            font-size: larger;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="title">Welcome to PlaygroundsCTF Ancient Egypt Edition</h1>
+    <p id="Braw">funky monkey</p>
+</body>
+</html>

@@ -1,0 +1,3 @@
+1. Finding the user on social media, you will find him on twitter. https://x.com/AbdulNasir44777
+2. Going through his page and reading his content you will notice him mentioning details about his youtube channel. He gave you the channel id "UCo0krRa-Cu6p14TqZPBbOOw" and you can use it to find his channel (https://www.youtube.com/channel/UCo0krRa-Cu6p14TqZPBbOOw).
+3. Looking through his videos you will notice something bizarre "a 20 block long cactus that naturally spawned", if you try to look online for a "20 block long cactus seed" you will find many pages and posts about it mentioning the seed value. one of the pages: https://www.reddit.com/r/minecraftseeds/comments/henko3/recordbreaking_20_block_tall_cactus_found_by/

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpeg" href="/static/favicon.jpg">
+    <title>Register</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            background-image: url("{{ url_for('static', filename='guards2.jpg') }}");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            overflow: hidden;
+            font-family: Arial, sans-serif;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start; 
+            text-align: center;
+            position: relative;
+        }
+
+        .form-container {
+            background-color: rgba(0, 0, 0, 0.7);
+            border: 2px solid gold;
+            padding: 30px;
+            border-radius: 15px;
+            max-width: 400px;
+            width: 100%;
+            position: absolute; 
+            top: 75%;  
+            left: 62%; 
+            transform: translate(-50%, -50%); 
+            
+        }
+
+        .form-title {
+            font-family: 'Noto Sans Egyptian Hieroglyphs', sans-serif;
+            font-size: 48px;
+            color: gold;
+            margin-bottom: 20px;
+        }
+
+        .form-input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid gold;
+            border-radius: 5px;
+            background-color: rgba(255, 255, 255, 0.2);
+            color: white;
+            font-size: 18px;
+            box-sizing: border-box;
+        }
+
+        .form-input::placeholder {
+            color: white;
+        }
+
+        .form-button {
+            width: 100%;
+            padding: 10px;
+            font-size: 20px;
+            color: gold;
+            background-color: rgba(0, 0, 0, 0.8);
+            border: 2px solid gold;
+            border-radius: 10px;
+            cursor: pointer;
+            box-sizing: border-box;
+        }
+
+        .form-button:hover {
+            background-color: rgba(0, 0, 0, 0.9);
+        }
+
+        .login-link {
+            margin-top: 15px;
+            font-size: 18px;
+            color: gold;
+            text-decoration: none;
+            display: block;
+        }
+
+        .login-link:hover {
+            text-decoration: underline;
+        }
+
+        .link-image {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+
+        .link-image img {
+            width: 100px;
+            height: auto;
+        }
+        .message {
+            font-size: 18px;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+
+        .message.success {
+            background-color: rgba(0, 255, 0, 0.2);
+            color: #00FF00; 
+            border: 1px solid green;
+        }
+
+        .message.error {
+            background-color: rgba(255, 0, 0, 0.2); 
+            color: #FF0000;
+            border: 1px solid red;
+        }
+
+    </style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Egyptian+Hieroglyphs&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="form-container">
+        <div class="form-title">Register</div>
+        {% if error %}
+            <div class="message error">{{ error }}</div>
+        {% endif %}
+        
+        {% if message %}
+            <div class="message success">{{ message }}</div>
+        {% endif %}
+    
+        <form method="POST" action="{{ url_for('register') }}">
+            <input type="text" name="username" class="form-input" placeholder="Username" required>
+            <input type="password" name="password" class="form-input" placeholder="Password" required>
+            <input type="password" name="confirm_password" class="form-input" placeholder="Confirm Password" required>
+            <button type="submit" class="form-button">Register</button>
+        </form>
+        <a href="{{ url_for('login') }}" class="login-link">Already have an account? Login here</a>
+    </div>
+    
+
+</body>
+</html>

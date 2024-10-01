@@ -1,0 +1,1 @@
+Transcribe the audio and use advanced googling to find where its from (or shazam it lol). You should reach a song called "Shades of Death" by "Accept". The song is inspired by an actual road called "Shades of Death Road" in New Jersey, USA. The victim name is in the wikipedia page of the road.

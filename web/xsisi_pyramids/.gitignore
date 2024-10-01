@@ -1,0 +1,215 @@
+# .gitignore file
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Ignore compiler output
+*.class
+*.exe
+*.o
+*.obj
+
+# Ignore package files
+*.jar
+*.war
+*.ear
+*.zip
+*.tar
+*.gz
+*.bz2
+
+# Ignore version control files
+.svn/
+.git/
+.hg/
+.bzr/
+
+# Ignore log files
+*.log
+*.tmp
+*.bak
+
+# Ignore Eclipse project files
+.metadata/
+bin/
+target/
+
+# Ignore NetBeans project files
+nbproject/
+build/
+nbdist/
+dist/
+
+# Ignore IntelliJ IDEA project files
+out/
+gen/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Ignore Visual Studio Code project files
+.vscode/
+
+# Ignore Maven project files
+target/
+pom.xml.tag
+
+# Ignore Gradle project files
+.gradle/
+build/
+out/
+
+# Ignore Node.js project files
+node_modules/
+package-lock.json
+
+# Ignore Python project files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Java project files
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignore C++ project files
+*.o
+*.obj
+*.exe
+
+# Ignore Ruby project files
+*.rb
+*.rbc
+*.erb
+
+# Ignore Swift project files
+*.swiftmodule
+*.swiftdoc
+*.xcodeproj/
+xcuserdata/
+
+# Ignore Go project files
+*.go
+*.exe
+
+# Ignore PHP project files
+*.php
+*.phar
+
+# Ignore Perl project files
+*.pl
+*.pm
+
+# Ignore Rust project files
+target/
+Cargo.lock
+
+# Ignore Haskell project files
+.cabal-sandbox/
+dist/
+dist-newstyle/
+
+# Ignore Julia project files
+*.jl
+*.ji
+*.dylib
+
+# Ignore Kotlin project files
+*.kt
+*.kts
+
+# Ignore Scala project files
+*.scala
+*.sbt
+
+# Ignore JavaScript project files
+*.js
+*.jsx
+*.ts
+*.tsx
+
+# Ignore TypeScript project files
+*.ts
+*.tsx
+
+# Ignore CoffeeScript project files
+*.coffee
+
+# Ignore LESS project files
+*.less
+
+# Ignore Sass project files
+*.scss
+*.sass
+
+# Ignore CSS project files
+*.css
+
+# Ignore HTML project files
+*.html
+*.htm
+
+# Ignore JSON project files
+*.json
+
+# Ignore YAML project files
+*.yaml
+*.yml
+
+# Ignore XML project files
+*.xml
+
+# Ignore SQL project files
+*.sql
+
+# Ignore Markdown project files
+*.md
+
+# Ignore Text project files
+*.txt
+
+# Ignore Image project files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.ico
+
+# Ignore Audio project files
+*.mp3
+*.wav
+*.ogg
+
+# Ignore Video project files
+*.mp4
+*.avi
+*.mov
+
+# Ignore Font project files
+*.ttf
+*.otf
+*.woff
+*.woff2
+
+# Ignore Miscellaneous project files
+*.lock
+*.lock.*
+*.tmp
+*.bak
+*.swp
+*.swo

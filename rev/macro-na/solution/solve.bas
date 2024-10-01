@@ -1,0 +1,20 @@
+Attribute VB_Name = "Module1"
+Sub FillCells()
+    Range("T239").Value = "gi"
+    Range("Y99").Value = "ve"
+    Range("Y303").Value = "_m"
+    Range("I27").Value = "e_"
+    Range("T199").Value = "th"
+    Range("Z43").Value = "e_"
+    Range("Q101").Value = "fl"
+    Range("B339").Value = "ag"
+    Range("D12").Value = "_r"
+    Range("L91").Value = "ig"
+    Range("J71").Value = "ht"
+    Range("H20").Value = "_n"
+    Range("M152").Value = "ow"
+    Range("X33").Value = "_p"
+    Range("F267").Value = "ls"
+    Range("A89").Value = ":)"
+End Sub
+

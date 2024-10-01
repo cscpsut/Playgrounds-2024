@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Pharaoh's Scrolls</title>
+    <link rel="icon" type="image/x-icon" href="/static/favicon.png">
+    <link rel="stylesheet" href="/static/styles.css">
+    <script>
+        function fetchScroll(scrollName) {
+            fetch(`/scrolls?file=${scrollName}`)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Scroll not found');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    // Show the scroll content container and update its content
+                    const scrollContainer = document.querySelector('.scroll-content-container');
+                    const scrollContent = document.querySelector('.scroll-content');
+                    const hideScrollBtn = document.querySelector('.hide-scroll-btn');
+                    scrollContent.innerHTML = `<pre>${atob(data.content)}</pre>`;
+                    scrollContainer.style.display = 'block';  // Show the content container
+                    hideScrollBtn.style.display = 'block';    // Show the hide button
+                })
+                .catch(error => {
+                    alert(error.message);
+                });
+        }
+
+        function hideScrollContent() {
+            const scrollContainer = document.querySelector('.scroll-content-container');
+            const hideScrollBtn = document.querySelector('.hide-scroll-btn');
+            scrollContainer.style.display = 'none';  // Hide the content container
+            hideScrollBtn.style.display = 'none';    // Hide the hide button
+        }
+    </script>
+</head>
+<body>
+    <h1>The Pharaoh's Grand Archive</h1>
+
+    <!-- Sidebar for Scroll List -->
+    <div class="scroll-list">
+        <p>Select from the sacred scrolls below to reveal their ancient knowledge:</p>
+        {% for scroll_name, file_name in scrolls.items() %}
+            <div class="scroll">
+                <a href="javascript:void(0);" onclick="fetchScroll('{{ file_name }}')">{{ scroll_name }}</a>
+            </div>
+        {% endfor %}
+    </div>
+
+    <!-- Scroll Content Display -->
+    <div class="scroll-content-container">
+        <div class="scroll-content">
+            <!-- Scroll content will be loaded here via JavaScript -->
+        </div>
+        <!-- Hide Scroll Button -->
+        <button class="hide-scroll-btn" onclick="hideScrollContent()" style="display: none;">
+            Hide Scroll
+        </button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+/* Ensure body and html take the full height */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main content should expand to fill available space */
+.container-fluid, .container {
+    flex: 1;
+}
+
+/* Egyptian theme */
+body.egyptian-bg {
+    background-color: #FAF3DD; /* Light sandstone color */
+    font-family: 'Papyrus', sans-serif;
+}
+
+.text-gold {
+    color: #C0A16B; /* Gold color */
+}
+
+.text-sandstone {
+    color: #8B6B61; /* Sandstone text color */
+}
+
+.btn-warning {
+    background-color: #D4AF37; /* Gold button background */
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-warning:hover {
+    background-color: #C0A16B; /* Darker gold on hover */
+}
+
+/* Footer styling */
+footer {
+    background-color: #704214; /* Dark brown footer to fit the Egyptian theme */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}

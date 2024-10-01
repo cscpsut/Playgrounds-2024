@@ -1,0 +1,791 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "email": "admin@gmail.com"
+    },
+    {
+      "id": 2,
+      "username": "user1",
+      "email": "user1@yahoo.com"
+    },
+    {
+      "id": 3,
+      "username": "user2",
+      "email": "user2@gmail.com"
+    }
+  ],
+  "hints": [
+    {
+      "id": 1,
+      "message": "Welcome to the hidden secrets database."
+    },
+    {
+      "id": 2,
+      "message": "Explore and find the clues."
+    },
+    {
+      "id": 3,
+      "message": "This might be a dead end."
+    },
+    {
+      "id": 4,
+      "message": "Look closely at each entry."
+    },
+    {
+      "id": 5,
+      "message": "The answer lies somewhere in the details."
+    },
+    {
+      "id": 6,
+      "message": "Do not overlook the IDs."
+    },
+    {
+      "id": 7,
+      "message": "Some entries are just distractions."
+    },
+    {
+      "id": 8,
+      "message": "Hints are scattered across different IDs."
+    },
+    {
+      "id": 9,
+      "message": "Keep searching, you are getting closer."
+    },
+    {
+      "id": 10,
+      "message": "Not the flag, keep looking"
+    },
+    {
+      "id": 11,
+      "message": "The flag is hidden in plain sight."
+    },
+    {
+      "id": 12,
+      "message": "Teshrab manga?"
+    },
+    {
+      "id": 13,
+      "message": "Don't get discouraged by irrelevant data."
+    },
+    {
+      "id": 14,
+      "message": "Focus on the IDs that seem unusual."
+    },
+    {
+      "id": 15,
+      "message": "Some IDs might contain partial information."
+    },
+    {
+      "id": 16,
+      "message": "Explore different combinations for clues."
+    },
+    {
+      "id": 17,
+      "message": "Cross-reference different IDs for hidden messages."
+    },
+    {
+      "id": 18,
+      "message": "The flag might be split across entries."
+    },
+    {
+      "id": 19,
+      "message": "Find the pattern to uncover the flag."
+    },
+    {
+      "id": 20,
+      "message": "Try harder, it's not here"
+    },
+    {
+      "id": 21,
+      "message": "Some entries may contain misleading information."
+    },
+    {
+      "id": 22,
+      "message": "The flag is encoded across different IDs."
+    },
+    {
+      "id": 23,
+      "message": "Check the context of each entry carefully."
+    },
+    {
+      "id": 24,
+      "message": "Look for entries that seem out of place."
+    },
+    {
+      "id": 25,
+      "message": "The solution involves piecing together the flag."
+    },
+    {
+      "id": 26,
+      "message": "Remember, the flag is hidden in multiple parts."
+    },
+    {
+      "id": 27,
+      "message": "Search for unusual patterns in the data."
+    },
+    {
+      "id": 28,
+      "message": "The flag might be disguised within text."
+    },
+    {
+      "id": 29,
+      "message": "Review all entries to find subtle clues."
+    },
+    {
+      "id": 30,
+      "message": "Keep track of IDs with unexpected content."
+    },
+    {
+      "id": 31,
+      "message": "Pay attention to hints about the flag location."
+    },
+    {
+      "id": 32,
+      "message": "The flag is split into several pieces."
+    },
+    {
+      "id": 33,
+      "message": "Consider entries with numeric IDs carefully."
+    },
+    {
+      "id": 34,
+      "message": "The flag is not in the most obvious place."
+    },
+    {
+      "id": 35,
+      "message": "IDs might have hints about where the flag is hidden."
+    },
+    {
+      "id": 36,
+      "message": "Look for IDs with unusual message"
+    },
+    {
+      "id": 37,
+      "message": "Moooo Salah, Mooooooo Salahhhh running Down the wing"
+    },
+    {
+      "id": 38,
+      "message": "Check the context of surrounding entries."
+    },
+    {
+      "id": 39,
+      "message": "The flag is encoded in different parts."
+    },
+    {
+      "id": 40,
+      "message": "Some entries might give you partial information."
+    },
+    {
+      "id": 41,
+      "message": "Masr Om el Donia!"
+    },
+    {
+      "id": 42,
+      "message": "Not all entries will be useful."
+    },
+    {
+      "id": 43,
+      "message": "The flag might be hidden in multiple places."
+    },
+    {
+      "id": 44,
+      "message": "Look for connections between different IDs."
+    },
+    {
+      "id": 45,
+      "message": "Check other IDs for hints"
+    },
+    {
+      "id": 46,
+      "message": "Consider the possibility of encoded information."
+    },
+    {
+      "id": 47,
+      "message": "Look beyond the obvious to find the flag."
+    },
+    {
+      "id": 48,
+      "message": "The flag is part of a larger puzzle."
+    },
+    {
+      "id": 49,
+      "message": "The solution requires piecing together clues."
+    },
+    {
+      "id": 50,
+      "message": "Analyze IDs with more scrutiny."
+    },
+    {
+      "id": 51,
+      "message": "The flag might be hidden in subtle ways."
+    },
+    {
+      "id": 52,
+      "message": "Keep searching through the IDs."
+    },
+    {
+      "id": 53,
+      "message": "The flag is not in the obvious entries."
+    },
+    {
+      "id": 54,
+      "message": "IDs with special characters might be relevant."
+    },
+    {
+      "id": 55,
+      "message": "Look for patterns or unusual entries."
+    },
+    {
+      "id": 56,
+      "message": "The flag is spread across different entries."
+    },
+    {
+      "id": 57,
+      "message": "Check entries with numeric IDs for clues."
+    },
+    {
+      "id": 58,
+      "message": "Some IDs might be misleading."
+    },
+    {
+      "id": 59,
+      "message": "The flag is partially hidden in several IDs."
+    },
+    {
+      "id": 60,
+      "message": "Consider all hints provided in the message"
+    },
+    {
+      "id": 61,
+      "message": "Review entries with high numeric values."
+    },
+    {
+      "id": 62,
+      "message": "The flag is not in the straightforward entries."
+    },
+    {
+      "id": 63,
+      "message": "Look at IDs with sequential numbers for patterns."
+    },
+    {
+      "id": 64,
+      "message": "The flag is encoded in parts across multiple entries."
+    },
+    {
+      "id": 65,
+      "message": "Check IDs with complex message"
+    },
+    {
+      "id": 66,
+      "message": "Some entries might be part of the final flag."
+    },
+    {
+      "id": 67,
+      "message": "Look for any clues in the message text."
+    },
+    {
+      "id": 68,
+      "message": "The flag is partially encoded in this dataset."
+    },
+    {
+      "id": 69,
+      "message": "It is here keep looking"
+    },
+    {
+      "id": 70,
+      "message": "Keep looking through the dataset for final clues."
+    },
+    {
+      "id": 71,
+      "message": "The flag is hidden across several IDs."
+    },
+    {
+      "id": 72,
+      "message": "The solution involves combining parts of the flag."
+    },
+    {
+      "id": 73,
+      "message": "Look for patterns in the data."
+    },
+    {
+      "id": 74,
+      "message": "The flag might be split and encoded."
+    },
+    {
+      "id": 75,
+      "message": "The answer requires careful examination of IDs."
+    },
+    {
+      "id": 76,
+      "message": "Check entries with high numeric values for hidden clues."
+    },
+    {
+      "id": 77,
+      "message": "Consider all pieces of information."
+    },
+    {
+      "id": 78,
+      "message": "The flag is part of a larger puzzle."
+    },
+    {
+      "id": 79,
+      "message": "The solution is hidden in plain sight."
+    },
+    {
+      "id": 80,
+      "message": "Look for hidden patterns in the data."
+    },
+    {
+      "id": 81,
+      "message": "The flag is distributed across different IDs."
+    },
+    {
+      "id": 82,
+      "message": "Explore all entries for possible hints."
+    },
+    {
+      "id": 83,
+      "message": "Check IDs for hidden data or clues."
+    },
+    {
+      "id": 84,
+      "message": "The flag is encoded in multiple entries."
+    },
+    {
+      "id": 85,
+      "message": "Consider the structure of the data for clues."
+    },
+    {
+      "id": 86,
+      "message": "Look for any encoded information."
+    },
+    {
+      "id": 87,
+      "message": "The flag might be hidden in parts."
+    },
+    {
+      "id": 88,
+      "message": "Search for patterns in the messages."
+    },
+    {
+      "id": 89,
+      "message": "The flag requires combining different entries."
+    },
+    {
+      "id": 90,
+      "message": "The final solution involves multiple IDs."
+    },
+    {
+      "id": 91,
+      "message": "Check for hidden messages in the data."
+    },
+    {
+      "id": 92,
+      "message": "The flag is distributed among several entries."
+    },
+    {
+      "id": 93,
+      "message": "Look for unusual patterns or text."
+    },
+    {
+      "id": 94,
+      "message": "The solution involves identifying the right IDs."
+    },
+    {
+      "id": 95,
+      "message": "Check entries for hidden flag parts."
+    },
+    {
+      "id": 96,
+      "message": "Consider the information across different IDs."
+    },
+    {
+      "id": 97,
+      "message": "The flag is hidden within the dataset."
+    },
+    {
+      "id": 98,
+      "message": "Look for entries with complex message"
+    },
+    {
+      "id": 99,
+      "message": "The flag requires careful analysis of IDs."
+    },
+    {
+      "id": 100,
+      "message": "The final flag is split across multiple entries."
+    },
+    {
+      "id": 101,
+      "message": "The flag is distributed across different IDs."
+    },
+    {
+      "id": 102,
+      "message": "Explore all entries for possible hints."
+    },
+    {
+      "id": 103,
+      "message": "Check IDs for hidden data or clues."
+    },
+    {
+      "id": 104,
+      "message": "The flag is encoded in multiple entries."
+    },
+    {
+      "id": 105,
+      "message": "Consider the structure of the data for clues."
+    },
+    {
+      "id": 106,
+      "message": "Look for any encoded information."
+    },
+    {
+      "id": 107,
+      "message": "The flag might be hidden in parts."
+    },
+    {
+      "id": 108,
+      "message": "Search for patterns in the message"
+    },
+    {
+      "id": 109,
+      "message": "The flag requires combining different entries."
+    },
+    {
+      "id": 110,
+      "message": "The final solution involves multiple IDs."
+    },
+    {
+      "id": 111,
+      "message": "Check for hidden messages in the data."
+    },
+    {
+      "id": 112,
+      "message": "The flag is distributed among several entries."
+    },
+    {
+      "id": 112,
+      "message": "Look for unusual patterns or text."
+    },
+    {
+      "id": 113,
+      "message": "The solution involves identifying the right IDs."
+    },
+    {
+      "id": 114,
+      "message": "Review entries with high numeric values."
+    },
+    {
+      "id": 115,
+      "message": "The flag is not in the straightforward entries."
+    },
+    {
+      "id": 116,
+      "message": "Look at IDs with sequential numbers for patterns."
+    },
+    {
+      "id": 117,
+      "message": "The flag is encoded in parts across multiple entries."
+    },
+    {
+      "id": 118,
+      "message": "Check IDs with complex message."
+    },
+    {
+      "id": 119,
+      "message": "Some entries might be part of the final flag."
+    },
+    {
+      "id": 120,
+      "message": "Look for any clues in the text."
+    },
+    {
+      "id": 121,
+      "message": "The flag is partially encoded in this dataset."
+    },
+    {
+      "id": 122,
+      "message": "Find the pattern to uncover the flag."
+    },
+    {
+      "id": 123,
+      "message": "Try harder, it's not here"
+    },
+    {
+      "id": 124,
+      "message": "Some entries may contain misleading information."
+    },
+    {
+      "id": 125,
+      "message": "The flag is encoded across different IDs."
+    },
+    {
+      "id": 126,
+      "message": "Check the context of each entry carefully."
+    },
+    {
+      "id": 127,
+      "message": "Look for entries that seem out of place."
+    },
+    {
+      "id": 128,
+      "message": "The solution involves piecing together the flag."
+    },
+    {
+      "id": 129,
+      "message": "Remember, the flag is hidden in multiple parts."
+    },
+    {
+      "id": 130,
+      "message": "Exiftool? Looks like an intersting tool."
+    },
+    {
+      "id": 131,
+      "message": "Here is the first part of the flag :) PlaygroundsCTF{y0u_f0und_"
+    },
+    {
+      "id": 132,
+      "message": "SUUUIIIIIIII!"
+    },
+    {
+      "id": 133,
+      "message": "Keep track of IDs with unexpected content."
+    },
+    {
+      "id": 144,
+      "message": "Pay attention to hints about the flag location."
+    },
+    {
+      "id": 145,
+      "message": "The flag is split into several pieces."
+    },
+    {
+      "id": 146,
+      "message": "Consider entries with numeric IDs carefully."
+    },
+    {
+      "id": 147,
+      "message": "The flag is not in the most obvious place."
+    },
+    {
+      "id": 148,
+      "message": "IDs might have hints about where the flag is hidden."
+    },
+    {
+      "id": 149,
+      "message": "Look for IDs with unusual messages."
+    },
+    {
+      "id": 150,
+      "message": "Explore and find the clues."
+    },
+    {
+      "id": 151,
+      "message": "This might be a dead end."
+    },
+    {
+      "id": 152,
+      "message": "Look closely at each entry."
+    },
+    {
+      "id": 153,
+      "message": "The answer lies somewhere in the details."
+    },
+    {
+      "id": 154,
+      "message": "Do not overlook the IDs."
+    },
+    {
+      "id": 155,
+      "message": "Some entries are just distractions."
+    },
+    {
+      "id": 156,
+      "message": "Hints are scattered across different IDs."
+    },
+    {
+      "id": 157,
+      "message": "Keep searching, you are getting closer."
+    },
+    {
+      "id": 158,
+      "message": "Not the flag, keep looking"
+    },
+    {
+      "id": 159,
+      "message": "The flag is hidden in plain sight."
+    },
+    {
+      "id": 160,
+      "message": "Da englizi Da ya morsi?"
+    },
+    {
+      "id": 161,
+      "message": "Don't get discouraged by irrelevant data."
+    },
+    {
+      "id": 162,
+      "message": "Focus on the IDs that seem unusual."
+    },
+    {
+      "id": 163,
+      "message": "Some IDs might contain partial information."
+    },
+    {
+      "id": 164,
+      "message": "Explore different combinations for clues."
+    },
+    {
+      "id": 165,
+      "message": "Cross-reference different IDs for hidden messages."
+    },
+    {
+      "id": 166,
+      "message": "The flag might be split across entries."
+    },
+    {
+      "id": 167,
+      "message": "Find the pattern to uncover the flag."
+    },
+    {
+      "id": 168,
+      "message": "Look for hidden patterns in the data."
+    },
+    {
+      "id": 169,
+      "message": "The flag is distributed across different IDs."
+    },
+    {
+      "id": 170,
+      "message": "Explore all entries for possible hints."
+    },
+    {
+      "id": 171,
+      "message": "Check IDs for hidden data or clues."
+    },
+    {
+      "id": 172,
+      "message": "The flag is encoded in multiple entries."
+    },
+    {
+      "id": 173,
+      "message": "Consider the structure of the data for clues."
+    },
+    {
+      "id": 174,
+      "message": "Look for any encoded information."
+    },
+    {
+      "id": 175,
+      "message": "The flag might be hidden in parts."
+    },
+    {
+      "id": 176,
+      "message": "Search for patterns in the message"
+    },
+    {
+      "id": 177,
+      "message": "The flag requires combining different entries."
+    },
+    {
+      "id": 178,
+      "message": "The final solution involves multiple IDs."
+    },
+    {
+      "id": 179,
+      "message": "Check for hidden messages in the data."
+    },
+    {
+      "id": 180,
+      "message": "The flag is distributed among several entries."
+    },
+    {
+      "id": 181,
+      "message": "Look for unusual patterns or text."
+    },
+    {
+      "id": 182,
+      "message": "The solution involves identifying the right IDs."
+    },
+    {
+      "id": 183,
+      "message": "Check entries for hidden flag parts."
+    },
+    {
+      "id": 184,
+      "message": "Consider the information across different IDs."
+    },
+    {
+      "id": 185,
+      "message": "Tab teshab Shay?"
+    },
+    {
+      "id": 186,
+      "message": "Look for entries with complex message"
+    },
+    {
+      "id": 187,
+      "message": "The flag requires careful analysis of IDs."
+    },
+    {
+      "id": 188,
+      "message": "Not the flag, keep looking"
+    },
+    {
+      "id": 189,
+      "message": "The flag is hidden in plain sight."
+    },
+    {
+      "id": 190,
+      "message": "shaklak fahem ya 'Nosah'!"
+    },
+    {
+      "id": 191,
+      "message": "Don't get discouraged by irrelevant data."
+    },
+    {
+      "id": 192,
+      "message": "Focus on the IDs that seem unusual."
+    },
+    {
+      "id": 193,
+      "message": "Some IDs might contain partial information."
+    },
+    {
+      "id": 194,
+      "message": "Explore different combinations for clues."
+    },
+    {
+      "id": 195,
+      "message": "Cross-reference different IDs for hidden messages."
+    },
+    {
+      "id": 196,
+      "message": "The flag might be split across entries."
+    },
+    {
+      "id": 197,
+      "message": "Find the pattern to uncover the flag."
+    },
+    {
+      "id": 198,
+      "message": "Look for hidden patterns in the data."
+    },
+    {
+      "id": 199,
+      "message": "The flag is distributed across different IDs."
+    },
+    {
+      "id": 200,
+      "message": "Explore all entries for possible hints."
+    }
+  ],
+  "secret": [
+    {
+      "password": "Yom_Wara_Y0m_7abib1",
+      "hidden": "Th3_0th3r_H@1f!77} Greattt Jobbb!"
+    }
+  ]
+}

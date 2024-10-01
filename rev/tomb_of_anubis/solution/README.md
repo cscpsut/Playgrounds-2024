@@ -1,0 +1,1 @@
+identify what OP functions do. after that reverse the operations character by character.

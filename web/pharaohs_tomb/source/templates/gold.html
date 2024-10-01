@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharaoh's Gold</title>
+    <link rel="icon" type="image/jpeg" href="/static/favicon.jpg">
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            background-image: url("{{ url_for('static', filename='gold2.jpg') }}");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            overflow: hidden;
+            font-family: Arial, sans-serif;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: relative;
+        }
+
+        .flag-container {
+            background-color: rgba(0, 0, 0, 0.7);
+            border: 2px solid gold;
+            padding: 20px;
+            border-radius: 15px;
+            max-width: 90%; 
+            width: auto; 
+            position: absolute;
+            top: 80%;
+            left: 55%;
+            transform: translate(-50%, -50%);
+            box-sizing: border-box;
+        }
+
+        .flag-message {
+            font-size: 24px;
+            color: white; 
+            margin: 5px; 
+        }
+
+        .enter-link {
+            font-family: 'Noto Sans Egyptian Hieroglyphs', sans-serif;
+            font-size: 24px;
+            color: gold;
+            text-decoration: none;
+            border: 2px solid gold;
+            padding: 10px 20px;
+            border-radius: 10px;
+            background-color: rgba(0, 0, 0, 0.7);
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        .enter-link:hover {
+            background-color: rgba(0, 0, 0, 0.9);
+        }
+
+        .link-image {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+
+        .link-image img {
+            width: 100px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="flag-container">
+        <p class="flag-message">Congratulations! You have accessed the gold:</p>
+        <p class="flag-message">{{ flag }}</p>
+        <a href="{{ url_for('guards') }}" class="enter-link">Back to Guards</a>
+    </div>
+</body>
+</html>

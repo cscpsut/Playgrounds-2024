@@ -1,0 +1,30 @@
+.custom-navbar {
+    background-color: black;
+    width: 100%;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.custom-navbar .container {
+    max-width: 100%;
+    padding: 0 20px;
+
+}
+
+.brand-content {
+    display: inline-flex;
+    align-items: center;
+}
+
+.brand-content h1 {
+    margin-left: 20px;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}

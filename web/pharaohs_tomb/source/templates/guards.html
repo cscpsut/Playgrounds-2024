@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpeg" href="/static/favicon.jpg">
+    <title>Pharaoh Guards</title>
+    <style>
+       body {
+            margin: 0;
+            height: 100vh;
+            background-image: url("{{ url_for('static', filename='guards2.jpg') }}");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            overflow: hidden;
+            font-family: Arial, sans-serif;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: relative;
+        }
+
+        .message-container {
+            background-color: rgba(0, 0, 0, 0.7);
+            border: 2px solid gold;
+            padding: 30px;
+            border-radius: 15px;
+            max-width: 400px;
+            width: 100%;
+            position: absolute;
+            top: 70%; 
+            left: 62%;
+            transform: translateX(-50%);
+        }
+
+        .message {
+            font-size: 24px;
+            margin-top: 7px;
+            margin-bottom: 20px;
+            color: rgb(255, 255, 255);
+        }
+
+        .error-message {
+            color: red;
+            font-weight: bold;
+        }
+
+        .enter-link {
+            font-family: 'Noto Sans Egyptian Hieroglyphs', sans-serif;
+            font-size: 24px;
+            color: gold;
+            text-decoration: none;
+            border: 2px solid gold;
+            padding: 10px 20px;
+            border-radius: 10px;
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+
+        .enter-link:hover {
+            background-color: rgba(0, 0, 0, 0.9);
+        }
+
+        .link-image {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+
+        .link-image img {
+            width: 100px;
+            height: auto;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="message-container">
+        {% if error %}
+            <p class="message error-message">{{ error }}</p>
+        {% endif %}
+        {% if logged_in %}
+            <p class="message">Welcome guest, only pharaoh and guards can access the gold.</p>
+            <a href="{{ url_for('gold') }}" class="enter-link">Go to the Gold</a>
+        {% else %}
+            <p class="message">Please log in to see if you can access the gold.</p>
+            <a href="{{ url_for('login') }}" class="enter-link">Login</a>
+        {% endif %}
+    </div>
+</body>
+</html>

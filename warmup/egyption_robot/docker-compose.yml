@@ -1,0 +1,7 @@
+services:
+  egyptian_robot:
+    build: .
+    ports:
+      - 80:80
+    volumes:
+      - ./source:/usr/local/apache2/htdocs/

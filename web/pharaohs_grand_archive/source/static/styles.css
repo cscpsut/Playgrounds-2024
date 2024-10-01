@@ -1,0 +1,84 @@
+body {
+    background-image: url('/static/background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Papyrus', sans-serif;
+    color: #DAA520;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 3em;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+a {
+    color: #f7f6f1;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.scroll-list {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 220px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.scroll-list p {
+    font-size: 1.5em;
+    color: #DAA520;
+}
+
+.scroll {
+    margin: 0;
+}
+
+.scroll-content-container {
+    display: none; /* Initially hidden */
+    margin: 50px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    color: #f7f6f1;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.scroll-content pre {
+    white-space: pre-wrap;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    color: #f7f6f1;
+}
+
+button.hide-scroll-btn {
+    margin-top: 20px;
+    background-color: #DAA520;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.hide-scroll-btn:hover {
+    background-color: #b88e36;
+}

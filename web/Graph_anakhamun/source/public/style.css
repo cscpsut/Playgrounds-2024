@@ -1,0 +1,144 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff; /* White as part of the Egyptian flag */
+    color: #000; /* Black for text */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensures the page takes up the full height of the browser */
+}
+
+header {
+    background-color: #ce1126; /* Red from the Egyptian flag */
+    color: #fff;
+    padding: 1.5em;
+    text-align: center;
+    border-bottom: 8px solid #d6a63a; /* Thicker Egyptian gold */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em; /* Larger header font */
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 1.5em;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em; /* Larger navigation font */
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 3em;
+    max-width: 1200px;
+    margin: auto;
+    background-color: #f4f4f4;
+    flex: 1; /* Ensures main content takes up the available space */
+}
+/* General styling for the side images and text */
+.side-content {
+    width: 150px;
+    margin: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.side-content img {
+    width: 100px; /* Adjust the size of the image */
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
+.side-content.left {
+    float: left;
+}
+
+.side-content.right {
+    float: right;
+}
+
+/* Clearfix to ensure the layout remains correct */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#intro {
+    background-color: #fff; /* Clean white background */
+    color: #ce1126; /* Red for the main section */
+    padding: 2.5em;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1.5em; /* Larger intro font */
+}
+
+#highlights {
+    margin-top: 2em;
+}
+
+#landmark-list {
+    list-style: none;
+    padding: 0;
+}
+
+#landmark-list li {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 1em;
+    padding: 1em;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    font-size: 1.25em; /* Larger font for the list */
+}
+
+#landmark-list img {
+    width: 100%; /* Images will adapt to the available width */
+    max-width: 400px; /* Restrict maximum image size */
+    display: block;
+    margin: 1em auto;
+}
+
+footer {
+    background-color: #000; /* Black from the Egyptian flag */
+    color: #fff;
+    text-align: center;
+    padding: 1.5em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    border-top: 8px solid #d6a63a; /* Thicker Egyptian gold */
+    font-size: 1.25em; /* Larger footer font */
+}
+
+footer p {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5em;
+    }
+
+    header nav ul li {
+        display: block;
+        margin: 0.5em 0;
+    }
+}

@@ -1,0 +1,33 @@
+body {
+    font-family: 'Papyrus', sans-serif;
+    background-color: #FAF3DD;
+    color: #3A3A3A;
+  }
+  
+  h1, h2 {
+    font-family: 'Papyrus', sans-serif;
+    color: #C0A16B; /* Gold color for Egyptian aesthetic */
+  }
+  
+  .navbar-dark .navbar-brand {
+    font-family: 'Papyrus', sans-serif;
+    color: #D4AF37; /* Gold */
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+    font-size: 18px;
+    color: #D4AF37;
+  }
+  
+  .card-header, .card-body {
+    background-color: #F7E7CE; /* Sandstone background color */
+  }
+  
+  .welcome {
+    color: #C69749; /* Golden text for the welcome message */
+  }
+  
+  footer {
+    background-color: #704214; /* Dark brown footer to fit the Egyptian theme */
+  }
+  

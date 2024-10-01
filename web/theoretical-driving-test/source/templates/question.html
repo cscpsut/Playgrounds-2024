@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الامتحان القيادة النظري</title>
+    <style>
+        body {
+            background-image: url('/static/bg.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-color: rgba(255, 255, 255, 0.2);
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            text-align: center;
+            padding: 20px;
+            margin: 20px auto;
+            border-radius: 10px;
+            max-width: 600px;
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+        .content {
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px auto;
+            background-color: rgba(255, 255, 255, 0.8);
+            max-width: 600px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>مرحبًا بك في الامتحان النظري</h1>
+    </div>
+    <div class="content">
+        <h2>سؤال</h2>
+        <form action="/تحقق" method="POST">
+            {% if question.image %}
+                <img src="{{ question.image }}" alt="صورة السؤال">
+            {% endif %}
+            <p>{{ question.question }}</p>
+            <ul>
+                {% for option in question.options %}
+                <li>
+                    <input type="radio" name="الاجابة" value="{{ option }}" required>
+                    {{ option }}
+                </li>
+                {% endfor %}
+            </ul>
+            <!-- <input type="hidden" name="المعرف" value="2YTZgtivINmG2LPZitiqINin2YTZhdi52LHZgSDwn5KA"> -->
+            <input type="submit" value="إرسال">
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,82 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('../Images/Yu.jpg'); /* Path to your image */
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat;
+    background-position: center; /* Center the image */
+    background-attachment: fixed; /* Keeps the image fixed while scrolling */
+    font-family: 'Papyrus', sans-serif;
+    color: #DAA520;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000; /* Fallback color */
+}
+
+.container {
+    text-align: center;
+    width: 100%; /* Ensure container spans full width */
+    max-width: 400px; /* Set a max-width to avoid stretching */
+    padding: 20px; /* Add padding to maintain space around the form */
+    background-color: rgba(0, 0, 0, 0.7); /* Optional: Darken the form background slightly */
+    border-radius: 10px; /* Add some rounding to the container */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.8); /* Add shadow for depth */
+}
+
+h2 {
+    font-size: 2.5em;
+    color: #FFD700;
+    text-shadow: 2px 2px 5px #000;
+    margin-bottom: 20px;
+}
+
+form {
+    width: 100%; /* Ensure the form takes up the full width of the container */
+}
+
+input[type="text"], input[type="password"] {
+    width: calc(100% - 20px); /* Adjusted width to fit the container */
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.2em;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%; /* Make the button the same width as the input fields */
+    background-color: #FFD700;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 1.5em;
+    cursor: pointer;
+    box-shadow: 0 0 10px #000;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: #DAA520;
+    transform: scale(1.05); /* Slightly reduced scale on hover */
+}
+
+form input, form button {
+    font-family: 'Papyrus', sans-serif;
+}
+
+p.error-message {
+    font-size: 1.5em; /* Increase the font size */
+    color: #ff4c4c; /* Red color for visibility */
+    margin-top: 20px;
+    text-shadow: 2px 2px 5px #000; /* Add shadow for better visibility */
+}

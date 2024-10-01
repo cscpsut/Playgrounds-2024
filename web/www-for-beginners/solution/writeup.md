@@ -1,0 +1,12 @@
+### 10 mini challenges to reach the flag
+- Page 0: check source code
+- Page 1: GET request with a certain header
+- Page 2: OPTIONS request
+- Page 3: URL parameter encoding
+- Page 4: POST request with a certain header and body
+- Page 5: Inspect page, or run JS code online.
+- Page 6: Stop redirect
+- Page 7: Edit cookie
+- Page 8: Find JWT secret in source code
+- Page 9: Bruteforce JWT secret using jwt-cracker and rockyou.txt
+- Page 10: flag :)

@@ -1,0 +1,1 @@
+PlaygroundsCTF{FAKE_FLAG}
