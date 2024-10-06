@@ -1,5 +1,5 @@
 # Baghat Lost Repo
-Author:
+Author: AvA_l4nch, pain
  
 ## Description:
 We are an AI company, we hired a guy named pharaoh bhagat and it was the biggest mistake we ever made. He deleted our entire git repository. Can you help us get anything back from it?
