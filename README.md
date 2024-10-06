@@ -6,6 +6,9 @@
   <img src="https://github.com/user-attachments/assets/41868b4e-23d3-41d4-8c43-77677ed87879" alt="logo" width="50%">
 </p>
 
+![Screenshot 2024-10-06 224042](https://github.com/user-attachments/assets/fd8453ba-72c0-482f-8121-60ef2a1039bb)
+
+
 This repository contains all the challenges from the Playgrounds CTF 2024 held at PSUT.
 
 - OSINT: 12
